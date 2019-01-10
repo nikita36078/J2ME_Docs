@@ -1,0 +1,115 @@
+/* Javadoc style sheet */
+
+/* Define colors, fonts and other style attributes here to override the defaults  */
+
+/* Page background color */
+body { background-color: #FFFFFF }
+
+/* Table colors */
+.TableHeadingColor     { background: #CCCCFF } /* Dark mauve */
+.TableSubHeadingColor  { background: #EEEEFF } /* Light mauve */
+.TableRowColor         { background: #FFFFFF } /* White */
+
+/* Font used in left-hand frame lists */
+.FrameTitleFont   { font-size: normal; font-family: normal }
+.FrameHeadingFont { font-size: normal; font-family: normal }
+.FrameItemFont    { font-size: normal; font-family: normal }
+
+/* Example of smaller, sans-serif font in frames */
+/* .FrameItemFont  { font-size: 10pt; font-family: Helvetica, Arial, sans-serif } */
+
+/* Navigation bar fonts and colors */
+.NavBarCell1    { background-color:#EEEEFF;}/* Light mauve */
+.NavBarCell1Rev { background-color:#00008B;}/* Dark Blue */
+.NavBarFont1    { font-family: Arial, Helvetica, sans-serif; color:#000000;}
+.NavBarFont1Rev { font-family: Arial, Helvetica, sans-serif; color:#FFFFFF;}
+
+.NavBarCell2    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF;}
+.NavBarCell3    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF;}
+
+/***************************************************************************
+		Additions to the Javadoc default style sheet to
+		facilitate PDF conversion using the Web Capture
+                feature of Adobe Acrobat.
+***************************************************************************/
+
+/* The following definitions would result in better layout in print-outs */
+/* and PDFs -- if only the html user agents actually respected them.     */
+
+p  { page-break-before: avoid; orphans: 0; widows: 0; }
+dl { page-break-inside: avoid; orphans: 0; widows: 0; }
+dd { page-break-inside: avoid; orphans: 0; widows: 0; }
+h1 { page-break-after: avoid }
+h2 { page-break-after: avoid }
+h3 { page-break-after: avoid }
+h4 { page-break-after: avoid }
+
+/* The "orphan" class is a dirty hack to force a heading and its following */
+/* paragraph onto the same page in the PDF output. Use it only where       */
+/* absolutely needed. */
+
+.orphan { page-break-before: always }
+
+/***************************************************************************
+		Additions to the Javadoc default style sheet to
+                enable change markup. Comment/uncomment to toggle
+                markup on/off.
+***************************************************************************/
+
+/* .kill { color: red; font: strike-through; } */
+/* .new  { color: red; } */
+.kill 	 { display: none; }
+.new     { }
+
+/***************************************************************************
+		Additions to the Javadoc default style sheet to
+                format the "@ru.k2s.example" code examples. These
+                are copied from the stylesheet that comes bundled
+                with the Example Taglet.
+***************************************************************************/
+
+/* the code example body */
+pre.example {
+			padding: 4px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+			white-space: pre;
+			background: #f8f8f8;
+			font-size: small;
+		}
+		
+.example A:link { color: blue; }
+.example A:visited { color: blue; }
+.example A:hover { color: blue; background: #f0f0f0; }
+
+/* the title of the example */
+.example_title { font-weight: bold; }
+
+/* comments */
+.example_comment { color: #008000; }
+
+/* primary types: int, boolean, float */
+.example_type { font-weight: bold; }
+
+/* identifiers beginning with capitals */
+.example_class { color: #000080; }
+.example_class A:link { color: #000080; }
+.example_class A:visited { color: #000080; }
+.example_class A:hover { color: #000080; background: #f0f0f0; }
+
+/* public, protected, private */
+.example_modifier { font-weight: bold; color: #606060; }
+
+/* class definition: class, extends, implements */
+.example_proclamation { font-weight: bold; color: #b04090; }
+
+/* flow control: if, for, return */
+.example_control { color: #800080; font-weight: bold; }
+
+/* strings */
+.example_string { color:blue; }
+
+/* true, false */
+.example_literal { color:blue; }
+

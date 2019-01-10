@@ -1,0 +1,63 @@
+A:link {
+	COLOR: #336699; FONT-FAMILY: Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #336699; FONT-FAMILY: Arial,Helvetica,sans-serif; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; FONT-FAMILY: Arial,Helvetica,sans-serif; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #000000; FONT-FAMILY: Arial,Helvetica,sans-serif; TEXT-DECORATION: underline
+}
+BODY {
+	COLOR: #000000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 8pt
+}
+bold {
+	COLOR: #000000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-WEIGHT: bold
+}
+H2 {
+	COLOR: #336699; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+H3 {
+	COLOR: #336699; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+H4 {
+	COLOR: #336699; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.FONTTI {
+	COLOR: #000000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 9pt
+}
+.NAVIFONTTI {
+	COLOR: #336699; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+.RIGHTFONT {
+	COLOR: #336699; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+.LOGINFONT {
+	COLOR: #000000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+.NAVIFONT {
+	COLOR: #336699; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 8pt; TEXT-DECORATION: none
+}
+.MISSINGFIELDFORMFONT {
+	COLOR: #ff0000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.FORMFONT {
+	COLOR: #000000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+TD {
+	COLOR: #000000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 8pt
+}
+.SUPERI {
+	FONT-SIZE: 50%; VERTICAL-ALIGN: super
+}
+.SUPER {
+	FONT-SIZE: 50%; VERTICAL-ALIGN: super
+}
+.SUB {
+	FONT-SIZE: 50%; VERTICAL-ALIGN: sub
+}
+.SUBI {
+	FONT-SIZE: 50%; VERTICAL-ALIGN: sub
+}
