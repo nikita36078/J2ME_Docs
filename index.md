@@ -13,7 +13,7 @@ layout: home
 * [JSR75 Personal Information Management API](docs\jsr75-pim)
 * [JSR82 Bluetooth API](docs\jsr82_1.1.1_javadoc)
 * [JSR120 Wireless Messaging API](docs\jsr120)
-* [JSR135 Java APIs for Bluetooth](docs\jsr135)
+* [JSR135 Mobile Media API](docs\jsr135)
 * [JSR172 Web Services Specification](docs\jsr172)
 * [JSR177 Security and Trust Services API](docs\jsr177)
 * [JSR179 Location API](docs\jsr179-1_1-mrel-javadoc)
