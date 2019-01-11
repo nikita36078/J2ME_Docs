@@ -3,7 +3,7 @@ github_username:  nikita36078
 email: nikita36078@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of the J2ME-related documentation
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/J2ME_Docs" # the subpath of your site, e.g. /blog
 markdown: kramdown
 theme: minima
 
