@@ -36,6 +36,7 @@ layout: default
 * [Motorola 3D API](docs\Motorola3D_API)
 * [Motorola FunLights API 1.0](docs\Motorola_FunLights_API_1_0)
 * [Motorola Gaming API](docs\Motorola_Gaming_API)
+* [Motorola iDEN API](docs\Motorola_iDEN_API)
 * [Motorola VibeLight API](docs\VibeLight)
 * [Nokia IAPInfo API](docs\Nokia_IAPInfo)
 * [Nokia In-App Payment API](docs\nokiainapp)
