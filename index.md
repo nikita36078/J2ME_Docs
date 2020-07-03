@@ -46,3 +46,5 @@ layout: default
 * [Project Capuchin API](docs\Capuchin)
 * [Samsung API 1.0](docs\Samsung_API_1_0)
 * [Siemens API](docs\Siemens_API)
+* [Vodafone API 1.0](docs\Vodafone_API_1_0)
+* [Vodafone API 2.0](docs\Vodafone_API_2_0)
