@@ -32,6 +32,7 @@ layout: default
 * [MIDP 2.0](docs\midp-2.0)
 * [MIDP 3.0](docs\midp-3_0-fr-javadoc)
 * [Here Maps API](docs\Maps_API)
+* [LG MMPP API](docs\LG_MMPP_API)
 * [Mascot Capsule API](docs\Mascot_Capsule_API)
 * [Motorola 3D API](docs\Motorola3D_API)
 * [Motorola FunLights API 1.0](docs\Motorola_FunLights_API_1_0)
