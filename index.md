@@ -32,6 +32,8 @@ layout: default
 * [MIDP 2.0](docs\midp-2.0)
 * [MIDP 3.0](docs\midp-3_0-fr-javadoc)
 * [Here Maps API](docs\Maps_API)
+* [KDDI ezPlus API 2.5](docs\ezplus_2.5)
+* [KDDI ezPlus API 3](docs\ezplus_3)
 * [LG MMPP API](docs\LG_MMPP_API)
 * [Mascot Capsule API](docs\Mascot_Capsule_API)
 * [Motorola 3D API](docs\Motorola3D_API)
