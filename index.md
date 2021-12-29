@@ -31,6 +31,7 @@ layout: default
 * [JSR280 XML API](docs\jsr280_1.0_spec)
 * [MIDP 2.0](docs\midp-2.0)
 * [MIDP 3.0](docs\midp-3_0-fr-javadoc)
+* [BlackBerry API 7.1.0](docs\BlackBerry_API_7_1_0)
 * [Here Maps API](docs\Maps_API)
 * [KDDI ezPlus API 2.5](docs\ezplus_2.5)
 * [KDDI ezPlus API 3](docs\ezplus_3)
