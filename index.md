@@ -35,6 +35,7 @@ layout: default
 * [Here Maps API](docs\Maps_API)
 * [KDDI ezPlus API 2.5](docs\ezplus_2.5)
 * [KDDI ezPlus API 3](docs\ezplus_3)
+* [KTF WIPI API](docs\KTF_WIPI_API)
 * [LG MMPP API](docs\LG_MMPP_API)
 * [Mascot Capsule API](docs\Mascot_Capsule_API)
 * [Motorola 3D API](docs\Motorola3D_API)
@@ -52,3 +53,4 @@ layout: default
 * [Siemens API](docs\Siemens_API)
 * [Vodafone API 1.0](docs\Vodafone_API_1_0)
 * [Vodafone API 2.0](docs\Vodafone_API_2_0)
+* [WIPI API 1.1.1](docs\WIPI_API_1_1_1)
