@@ -45,6 +45,7 @@ layout: default
 * [Motorola VibeLight API](docs\VibeLight)
 * [Nokia IAPInfo API](docs\Nokia_IAPInfo)
 * [Nokia In-App Payment API](docs\nokiainapp)
+* [Nokia In-App Purchase API 1.0](docs\Nokia_In-App_Purchase_API_1.0)
 * [Nokia SMS API 0.9](docs\Nokia_SMS_API_0_9)
 * [Nokia UI API 1.1](docs\Nokia_UI_API_1_1)
 * [Nokia UI API 2.0](docs\nokiaapi2)

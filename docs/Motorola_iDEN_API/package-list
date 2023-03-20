@@ -11,7 +11,7 @@ com.motorola.iden.call
 com.motorola.iden.crypto
 com.motorola.iden.crypto.spec
 com.motorola.iden.lcdui
-com.motorola.iden.lnf
+com.mot.lnf
 com.motorola.iden.micro3d
 com.motorola.iden.multimedia
 com.motorola.iden.position
