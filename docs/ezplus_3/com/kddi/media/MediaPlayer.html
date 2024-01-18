@@ -657,7 +657,344 @@ public void <B>play</B>(int&nbsp;count)</PRE>
 </DD>
 <DD><DL>
 <DT><B>パラメータ: </B><DD><CODE>count</CODE> - 再生繰返し回数。   
-</DLListener)">addMediaEventListener</A></CODE></DL>   
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="stop()"><!-- --></A><H3>
+stop</H3>
+<PRE>
+public void <B>stop</B>()</PRE>
+<DL>
+<DD>メディアを停止します。<DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#stop()">stop</A></CODE></DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="pause()"><!-- --></A><H3>
+pause</H3>
+<PRE>
+public void <B>pause</B>()</PRE>
+<DL>
+<DD>メディアを一時停止します。<DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#pause()">pause</A></CODE></DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="resume()"><!-- --></A><H3>
+resume</H3>
+<PRE>
+public void <B>resume</B>()</PRE>
+<DL>
+<DD>メディアの一時停止を解除します。<DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#resume()">resume</A></CODE></DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="setAttribute(int, int)"><!-- --></A><H3>
+setAttribute</H3>
+<PRE>
+public void <B>setAttribute</B>(int&nbsp;attr,
+                         int&nbsp;value)</PRE>
+<DL>
+<DD>メディアの属性を設定します。（将来拡張用）<DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#setAttribute(int, int)">setAttribute</A></CODE></DL>   
 </DD>
 <DD><DL>
-<DT><B>繝代Λ繝｡繝ｼ繧ｿ: </B><DD><CODE>l</CODE> - <A HREF="../../../com/kddi/media/MediaEventListener.html"><CODE>MediaEventListener</CODE></A> 繧､繝ｳ繧ｿ繝輔ぉ繝ｼ繧ｹ繧貞ｮ溯｣
+<DT><B>パラメータ: </B><DD><CODE>attr</CODE> - 設定する属性<DD><CODE>value</CODE> - 設定する値</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="getAttribute(int)"><!-- --></A><H3>
+getAttribute</H3>
+<PRE>
+public int <B>getAttribute</B>(int&nbsp;attr)</PRE>
+<DL>
+<DD>メディアの属性の値を返します。（将来拡張用）<DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#getAttribute(int)">getAttribute</A></CODE></DL>   
+</DD>
+<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>attr</CODE> - 属性<DT><B>戻り値: </B><DD>属性の値</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="setTempo(int)"><!-- --></A><H3>
+setTempo</H3>
+<PRE>
+public void <B>setTempo</B>(int&nbsp;tempo)</PRE>
+<DL>
+<DD><B>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> の記述: </B></DD>   
+<DD>再生速度を設定します。
+ <p>
+ メディアの再生速度を、標準速度を 100 としたパーセンテージで設定します。   
+ 85 〜 115 程度が実用的な範囲です。   
+ 指定した値が 85 以下の場合は 85 に、115 以上の場合は 115 になります。   
+ </p><DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#setTempo(int)">setTempo</A></CODE></DL>   
+</DD>
+<DD>インタフェース <CODE>com.kddi.media.MediaPlayerInterface</CODE> からコピーされたタグ:</DD>   
+<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>tempo</CODE> - 再生速度</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="getTempo()"><!-- --></A><H3>
+getTempo</H3>
+<PRE>
+public int <B>getTempo</B>()</PRE>
+<DL>
+<DD><B>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> の記述: </B></DD>   
+<DD>現在の再生速度を返します。
+ <p>
+ メディアの再生速度を、標準速度を 100 としたパーセンテージで返します。   
+ </p><DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#getTempo()">getTempo</A></CODE></DL>   
+</DD>
+<DD>インタフェース <CODE>com.kddi.media.MediaPlayerInterface</CODE> からコピーされたタグ:</DD>   
+<DD><DL>
+<DT><B>戻り値: </B><DD>再生速度。標準速度を 100 としたパーセンテージ。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="setPitch(int)"><!-- --></A><H3>
+setPitch</H3>
+<PRE>
+public void <B>setPitch</B>(int&nbsp;pitch)</PRE>
+<DL>
+<DD><B>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> の記述: </B></DD>   
+<DD>再生ピッチ（キー）を設定します。
+ <p>
+ メディアの再生キーを -6 〜 +6 の範囲で設定します。   
+ 0 を標準のキーとして、-1 から -6 に向けて半音階ずつ下がり、+1 から +6 に向けて半音階ずつ上がります。   
+ 指定した値が -6 以下の場合は -6 に、6 以上の場合は 6 になります。   
+ </p><DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#setPitch(int)">setPitch</A></CODE></DL>   
+</DD>
+<DD>インタフェース <CODE>com.kddi.media.MediaPlayerInterface</CODE> からコピーされたタグ:</DD>   
+<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>pitch</CODE> - 再生ピッチ（キー）</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPitch()"><!-- --></A><H3>
+getPitch</H3>
+<PRE>
+public int <B>getPitch</B>()</PRE>
+<DL>
+<DD><B>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> の記述: </B></DD>   
+<DD>現在の再生ピッチ（キー）を返します。
+ <p>
+ メディアの再生キーを -6 〜 +6 の範囲で返します。   
+ 0 を標準のキーとして、-1 から -6 に向けて半音階ずつ下がり、+1 から +6 に向けて半音階ずつ上がります。   
+ </p><DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#getPitch()">getPitch</A></CODE></DL>   
+</DD>
+<DD>インタフェース <CODE>com.kddi.media.MediaPlayerInterface</CODE> からコピーされたタグ:</DD>   
+<DD><DL>
+<DT><B>戻り値: </B><DD>再生ピッチ（キー）</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setVolume(int)"><!-- --></A><H3>
+setVolume</H3>
+<PRE>
+public void <B>setVolume</B>(int&nbsp;volume)</PRE>
+<DL>
+<DD><B>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> の記述: </B></DD>   
+<DD>再生音量を設定します。
+ <p>
+ メディアの再生音量を 0 〜 100 の範囲で設定します。   
+ 0 が無音を表し、1 から 100 に向かって大きくなります。   
+ 指定した値が 0 以下の場合は 0 に、100 以上の場合は 100 になります。   
+ </p>
+ <p>
+ 移動機の実装により、段階ごとに丸める場合があります。
+ </p><DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#setVolume(int)">setVolume</A></CODE></DL>   
+</DD>
+<DD>インタフェース <CODE>com.kddi.media.MediaPlayerInterface</CODE> からコピーされたタグ:</DD>   
+<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>volume</CODE> - 再生音量</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="getVolume()"><!-- --></A><H3>
+getVolume</H3>
+<PRE>
+public int <B>getVolume</B>()</PRE>
+<DL>
+<DD><B>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> の記述: </B></DD>   
+<DD>現在の再生音量を返します。
+ <p>
+ メディアの再生音量を 0 〜 100 の範囲で返します。   
+ 0 が無音を表し、1 から 100 に向かって大きくなります。   
+ </p><DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#getVolume()">getVolume</A></CODE></DL>   
+</DD>
+<DD>インタフェース <CODE>com.kddi.media.MediaPlayerInterface</CODE> からコピーされたタグ:</DD>   
+<DD><DL>
+<DT><B>戻り値: </B><DD>再生音量</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="show()"><!-- --></A><H3>
+show</H3>
+<PRE>
+public void <B>show</B>()</PRE>
+<DL>
+<DD>メディアプレイヤーを表示します。<DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#show()">show</A></CODE></DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="hide()"><!-- --></A><H3>
+hide</H3>
+<PRE>
+public void <B>hide</B>()</PRE>
+<DL>
+<DD>メディアプレイヤーを非表示にします。<DD><DL>
+<DT><B>定義: </B><DD>インタフェース <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html">MediaPlayerInterface</A></CODE> 内の <CODE><A HREF="../../../com/kddi/media/MediaPlayerInterface.html#hide()">hide</A></CODE></DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="canPlay(java.lang.String)"><!-- --></A><H3>
+canPlay</H3>
+<PRE>
+public static boolean <B>canPlay</B>(java.lang.String&nbsp;dataType)</PRE>
+<DL>
+<DD>メディアタイプを再生可能かどうか調べます。
+ <p>
+ 各サブクラスごとに、再生可能かどうか検査するコードを実装する。<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>dataType</CODE> - メディアのデータタイプ<DT><B>戻り値: </B><DD>指定のデータタイプを再生可能なら true、再生不可能なら false。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="validateId()"><!-- --></A><H3>
+validateId</H3>
+<PRE>
+protected final void <B>validateId</B>()</PRE>
+<DL>
+<DD>プレイヤー ID の検証。<DD><DL>   
+</DL>
+</DD>
+<DD><DL>
+<DT><B>例外: </B><DD><CODE>IllegalStateException</CODE> - ネイティブプレイヤーがすでに破棄されているときに送出。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="notifyEvent(com.kddi.media.MediaPlayer, int, int)"><!-- --></A><H3>
+notifyEvent</H3>
+<PRE>
+protected final void <B>notifyEvent</B>(<A HREF="../../../com/kddi/media/MediaPlayer.html">MediaPlayer</A>&nbsp;player,
+                                 int&nbsp;type,
+                                 int&nbsp;option)</PRE>
+<DL>
+<DD>メディアイベントの通知。<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>player</CODE> - イベントが発生した <A HREF="../../../com/kddi/media/MediaPlayer.html"><CODE>MediaPlayer</CODE></A> オブジェクト。<DD><CODE>type</CODE> - イベントの種類。<DD><CODE>option</CODE> - イベント種類に固有のオプション引数。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="paint(javax.microedition.lcdui.Graphics)"><!-- --></A><H3>
+paint</H3>
+<PRE>
+protected void <B>paint</B>(javax.microedition.lcdui.Graphics&nbsp;g)</PRE>
+<DL>
+<DD>メディアプレイヤーの描画。<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>g</CODE> - 描画先のグラフィックコンテキスト。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="disposePlayer()"><!-- --></A><H3>
+disposePlayer</H3>
+<PRE>
+protected abstract boolean <B>disposePlayer</B>()</PRE>
+<DL>
+<DD>メディアプレイヤーの破棄。（プレーヤー本体）<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>戻り値: </B><DD>成功：true, 失敗：false</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="dispose()"><!-- --></A><H3>
+dispose</H3>
+<PRE>
+protected abstract void <B>dispose</B>()</PRE>
+<DL>
+<DD>メディアプレイヤーの破棄。<DD><DL>
+</DL>
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+<!-- ========== START OF NAVBAR ========== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>概要</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>パッケージ</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>クラス</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/MediaPlayer.html"><FONT CLASS="NavBarFont1"><B>使用</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>非推奨 API</B></FONT></A>&nbsp;</TD> 
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html" TARGET="_top"><B>フレームあり</B></A>  &nbsp;  
+&nbsp;<A HREF="MediaPlayer.html" TARGET="_top"><B>フレームなし</B></A></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  概要: &nbsp;<A HREF="#inner_class_summary">内部クラス</A>&nbsp;|&nbsp;<A HREF="#field_summary">フィールド</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">コンストラクタ</A>&nbsp;|&nbsp;<A HREF="#method_summary">メソッド</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+詳細: &nbsp;<A HREF="#field_detail">フィールド</A>&nbsp;|&nbsp;<A HREF="#constructor_detail">コンストラクタ</A>&nbsp;|&nbsp;<A HREF="#method_detail">メソッド</A></FONT></TD>
+</TR>
+</TABLE>
+<!-- =========== END OF NAVBAR =========== -->
+
+<HR>
+Copyright 2003 Aplix Corporation. All rights reserved.  Aplix Confidential and Restricted.   
+</BODY>
+</HTML>

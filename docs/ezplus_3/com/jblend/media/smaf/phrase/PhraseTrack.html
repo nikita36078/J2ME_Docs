@@ -596,4 +596,193 @@ public <A HREF="../../../../../com/jblend/media/smaf/phrase/PhraseTrack.html">Ph
 </DL>
 <HR>
 
-<A NAME="play()"><!-- --><＠縺ｾ縺吶
+<A NAME="play()"><!-- --></A><H3>
+play</H3>
+<PRE>
+public void <B>play</B>()</PRE>
+<DL>
+<DD>フレーズを再生します。再生中の再生は無視します。</DL>
+<HR>
+
+<A NAME="play(int)"><!-- --></A><H3>
+play</H3>
+<PRE>
+public void <B>play</B>(int&nbsp;loop)</PRE>
+<DL>
+<DD>フレーズを繰り返し再生します。再生中の再生は無視します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>loop</CODE> - 繰り返し回数(255 回まで、0 なら無限に繰り返す)<DT><B>例外: </B><DD><CODE>java.lang.RuntimeException</CODE> - Nativeフレーズプレイヤーが再生できなかった場合に発生する</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="stop()"><!-- --></A><H3>
+stop</H3>
+<PRE>
+public void <B>stop</B>()</PRE>
+<DL>
+<DD>再生を停止します。</DL>
+<HR>
+
+<A NAME="pause()"><!-- --></A><H3>
+pause</H3>
+<PRE>
+public void <B>pause</B>()</PRE>
+<DL>
+<DD>再生を一時停止します。<DD><DL>
+<DT><B>例外: </B><DD><CODE>java.lang.RuntimeException</CODE> - Nativeフレーズプレイヤーが一時停止できなかった場合に発生する</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="resume()"><!-- --></A><H3>
+resume</H3>
+<PRE>
+public void <B>resume</B>()</PRE>
+<DL>
+<DD>一時停止した再生を再開します。<DD><DL>
+<DT><B>例外: </B><DD><CODE>java.lang.RuntimeException</CODE> - Nativeフレーズプレイヤーが再開できなかった場合に発生する</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="getState()"><!-- --></A><H3>
+getState</H3>
+<PRE>
+public int <B>getState</B>()</PRE>
+<DL>
+<DD>トラックの状態を返します。<DD><DL>
+<DT><B>戻り値: </B><DD>状態</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setVolume(int)"><!-- --></A><H3>
+setVolume</H3>
+<PRE>
+public void <B>setVolume</B>(int&nbsp;value)</PRE>
+<DL>
+<DD>再生音量を設定します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>value</CODE> - 音量(0 : 無音、127 : 最大)</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="getVolume()"><!-- --></A><H3>
+getVolume</H3>
+<PRE>
+public int <B>getVolume</B>()</PRE>
+<DL>
+<DD>再生音量を返します。<DD><DL>
+<DT><B>戻り値: </B><DD>音量(0 : 無音、127 : 最大)</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="setPanpot(int)"><!-- --></A><H3>
+setPanpot</H3>
+<PRE>
+public void <B>setPanpot</B>(int&nbsp;value)</PRE>
+<DL>
+<DD>パンポット（音の定位）を設定します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>value</CODE> - 定位(0 : 左端、64 : 中央、127 : 右端)</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPanpot()"><!-- --></A><H3>
+getPanpot</H3>
+<PRE>
+public int <B>getPanpot</B>()</PRE>
+<DL>
+<DD>パンポット（音の定位）を返します。<DD><DL>
+<DT><B>戻り値: </B><DD>定位(0 : 左端、64 : 中央、127 : 右端)</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="mute(boolean)"><!-- --></A><H3>
+mute</H3>
+<PRE>
+public void <B>mute</B>(boolean&nbsp;mute)</PRE>
+<DL>
+<DD>再生をミュート(消音)します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>mute</CODE> - true ならミュート、false なら解除</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="isMute()"><!-- --></A><H3>
+isMute</H3>
+<PRE>
+public boolean <B>isMute</B>()</PRE>
+<DL>
+<DD>ミュートされているかどうかを判別します。<DD><DL>
+<DT><B>戻り値: </B><DD>true：ミュートされている、false：ミュートされていない</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getID()"><!-- --></A><H3>
+getID</H3>
+<PRE>
+public int <B>getID</B>()</PRE>
+<DL>
+<DD>トラック番号を返します。<DD><DL>
+<DT><B>戻り値: </B><DD>トラック番号</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setEventListener(com.jblend.media.smaf.phrase.PhraseTrackListener)"><!-- --></A><H3>
+setEventListener</H3>
+<PRE>
+public void <B>setEventListener</B>(<A HREF="../../../../../com/jblend/media/smaf/phrase/PhraseTrackListener.html">PhraseTrackListener</A>&nbsp;l)</PRE>
+<DL>
+<DD>イベントリスナを登録します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>l</CODE> - イベントリスナ</DL>  
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+<!-- ========== START OF NAVBAR ========== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>概要</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>パッケージ</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>クラス</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/PhraseTrack.html"><FONT CLASS="NavBarFont1"><B>使用</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>非推奨 API</B></FONT></A>&nbsp;</TD> 
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../../../index.html" TARGET="_top"><B>フレームあり</B></A>  &nbsp;  
+&nbsp;<A HREF="PhraseTrack.html" TARGET="_top"><B>フレームなし</B></A></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  概要: &nbsp;内部クラス&nbsp;|&nbsp;<A HREF="#field_summary">フィールド</A>&nbsp;|&nbsp;コンストラクタ&nbsp;|&nbsp;<A HREF="#method_summary">メソッド</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+詳細: &nbsp;<A HREF="#field_detail">フィールド</A>&nbsp;|&nbsp;コンストラクタ&nbsp;|&nbsp;<A HREF="#method_detail">メソッド</A></FONT></TD>
+</TR>
+</TABLE>
+<!-- =========== END OF NAVBAR =========== -->
+
+<HR>
+Copyright 2003 Aplix Corporation. All rights reserved.  Aplix Confidential and Restricted.  
+</BODY>
+</HTML>

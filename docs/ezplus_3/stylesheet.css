@@ -1,26 +1,26 @@
-/* javadoc ƒXƒ^ƒCƒ‹ƒV[ƒg */
+/* javadoc ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ */
 
-/* F‚âƒtƒHƒ“ƒg‚È‚Ç‚ÌƒXƒ^ƒCƒ‹‘®«‚ÌƒfƒtƒHƒ‹ƒg’l‚ğã‘‚«‚·‚é‚É‚ÍA‚±‚±‚Å’è‹`‚µ‚Ü‚·B */
+/* è‰²ã‚„ãƒ•ã‚©ãƒ³ãƒˆãªã©ã®ã‚¹ã‚¿ã‚¤ãƒ«å±æ€§ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã‚’ä¸Šæ›¸ãã™ã‚‹ã«ã¯ã€ã“ã“ã§å®šç¾©ã—ã¾ã™ã€‚ */
 
-/* ƒy[ƒW‚ÌƒoƒbƒNƒOƒ‰ƒEƒ“ƒh‚ÌF */
+/* ãƒšãƒ¼ã‚¸ã®ãƒãƒƒã‚¯ã‚°ãƒ©ã‚¦ãƒ³ãƒ‰ã®è‰² */
 body { background-color: #FFFFFF }
 
-/* ƒe[ƒuƒ‹‚ÌF */
-.TableHeadingColor     { background: #CCCCFF } /* ”Z‚¢“¡F */
-.TableSubHeadingColor  { background: #EEEEFF } /* ”–‚¢“¡F */
-.TableRowColor         { background: #FFFFFF } /* ”’ */
+/* ãƒ†ãƒ¼ãƒ–ãƒ«ã®è‰² */
+.TableHeadingColor     { background: #CCCCFF } /* æ¿ƒã„è—¤è‰² */
+.TableSubHeadingColor  { background: #EEEEFF } /* è–„ã„è—¤è‰² */
+.TableRowColor         { background: #FFFFFF } /* ç™½ */
 
-/* ¶‘¤‚ÌƒtƒŒ[ƒ€‚ÌƒŠƒXƒg‚Ég—p‚·‚éƒtƒHƒ“ƒg */
+/* å·¦å´ã®ãƒ•ãƒ¬ãƒ¼ãƒ ã®ãƒªã‚¹ãƒˆã«ä½¿ç”¨ã™ã‚‹ãƒ•ã‚©ãƒ³ãƒˆ */
 .FrameTitleFont   { font-size: normal; font-family: normal }
 .FrameHeadingFont { font-size: normal; font-family: normal }
 .FrameItemFont    { font-size: normal; font-family: normal }
 
-/* ƒtƒŒ[ƒ€‚É‚¨‚¯‚éA‚æ‚è¬‚³‚¢AƒZƒŠƒt‚È‚µƒtƒHƒ“ƒg‚Ì—á */
+/* ãƒ•ãƒ¬ãƒ¼ãƒ ã«ãŠã‘ã‚‹ã€ã‚ˆã‚Šå°ã•ã„ã€ã‚»ãƒªãƒ•ãªã—ãƒ•ã‚©ãƒ³ãƒˆã®ä¾‹ */
 /* .FrameItemFont  { font-size: 10pt; font-family: Helvetica, Arial, sans-serif } */
 
-/* ƒiƒrƒQ[ƒVƒ‡ƒ“ƒo[‚ÌƒtƒHƒ“ƒg‚ÆF */
-.NavBarCell1    { background-color:#EEEEFF;}/* ”–‚¢“¡F */
-.NavBarCell1Rev { background-color:#00008B;}/* ”Z‚¢Â */
+/* ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ãƒãƒ¼ã®ãƒ•ã‚©ãƒ³ãƒˆã¨è‰² */
+.NavBarCell1    { background-color:#EEEEFF;}/* è–„ã„è—¤è‰² */
+.NavBarCell1Rev { background-color:#00008B;}/* æ¿ƒã„é’ */
 .NavBarFont1    { font-family: Arial, Helvetica, sans-serif; color:#000000;}
 .NavBarFont1Rev { font-family: Arial, Helvetica, sans-serif; color:#FFFFFF;}
 
