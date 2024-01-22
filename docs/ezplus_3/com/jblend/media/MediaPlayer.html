@@ -516,7 +516,202 @@ public static final int <B>PAUSED</B></PRE>
 ERROR</H3>
 <PRE>
 public static final int <B>ERROR</B></PRE>
-<Dplay</A></B>()</CODE>
+<DL>
+<DD>エラー停止中であることを示します。定数 0x10000 画」割り当てられています。</DL>  
+<HR>
 
-<BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蜀咲函縺励∪縺吶
+<A NAME="REAL_WIDTH"><!-- --></A><H3>
+REAL_WIDTH</H3>
+<PRE>
+protected static final int <B>REAL_WIDTH</B></PRE>
+<DL>
+<DD>実画面の幅を表します。</DL>
+<HR>
+
+<A NAME="REAL_HEIGHT"><!-- --></A><H3>
+REAL_HEIGHT</H3>
+<PRE>
+protected static final int <B>REAL_HEIGHT</B></PRE>
+<DL>
+<DD>実画面の高さを表します。</DL>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+<A NAME="constructor_detail"><!-- --></A>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TD COLSPAN=1><FONT SIZE="+2">
+<B>コンストラクタの詳細</B></FONT></TD>
+</TR>
+</TABLE>
+
+<A NAME="MediaPlayer()"><!-- --></A><H3>
+MediaPlayer</H3>
+<PRE>
+public <B>MediaPlayer</B>()</PRE>
+<DL>
+</DL>
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME="method_detail"><!-- --></A>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TD COLSPAN=1><FONT SIZE="+2">
+<B>メソッドの詳細</B></FONT></TD>
+</TR>
+</TABLE>
+
+<A NAME="setData(com.jblend.media.MediaData)"><!-- --></A><H3>
+setData</H3>
+<PRE>
+public abstract void <B>setData</B>(<A HREF="../../../com/jblend/media/MediaData.html">MediaData</A>&nbsp;data)</PRE>
+<DL>
+<DD>データを設定します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>data</CODE> - データ</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="play()"><!-- --></A><H3>
+play</H3>
+<PRE>
+public abstract void <B>play</B>()</PRE>
+<DL>
+<DD>再生します。</DL>
+<HR>
+
+<A NAME="play(boolean)"><!-- --></A><H3>
+play</H3>
+<PRE>
+public abstract void <B>play</B>(boolean&nbsp;isRepeat)</PRE>
+<DL>
+<DD>繰り返し指定つきで再生します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>isRepeat</CODE> - 繰り返しの有無</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="play(int)"><!-- --></A><H3>
+play</H3>
+<PRE>
+public abstract void <B>play</B>(int&nbsp;count)</PRE>
+<DL>
+<DD>繰り返し再生します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>count</CODE> - 繰り返し回数</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="stop()"><!-- --></A><H3>
+stop</H3>
+<PRE>
+public abstract void <B>stop</B>()</PRE>
+<DL>
+<DD>停止します。<br>
+ 次にplayした場合、先頭から再生されます。</DL>
+<HR>
+
+<A NAME="pause()"><!-- --></A><H3>
+pause</H3>
+<PRE>
+public abstract void <B>pause</B>()</PRE>
+<DL>
+<DD>一時停止します。</DL>
+<HR>
+
+<A NAME="resume()"><!-- --></A><H3>
+resume</H3>
+<PRE>
+public abstract void <B>resume</B>()</PRE>
+<DL>
+<DD>再開します。  
+ 一時停止している位置から再開します。</DL>
+<HR>
+
+<A NAME="getState()"><!-- --></A><H3>
+getState</H3>
+<PRE>
+public abstract int <B>getState</B>()</PRE>
+<DL>
+<DD>プレイヤーの状態を返します。<DD><DL>
+<DT><B>戻り値: </B><DD>int  現在の状態</DL>  
+</DD>
+</DL>
+<HR>
+
+<A NAME="addMediaPlayerListener(com.jblend.media.MediaPlayerListener)"><!-- --></A><H3>
+addMediaPlayerListener</H3>
+<PRE>
+public abstract void <B>addMediaPlayerListener</B>(<A HREF="../../../com/jblend/media/MediaPlayerListener.html">MediaPlayerListener</A>&nbsp;l)</PRE>
+<DL>
+<DD>MediaPlayerListenerを登録します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>l</CODE> - MediaPlayerListener</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="removeMediaPlayerListener(com.jblend.media.MediaPlayerListener)"><!-- --></A><H3>
+removeMediaPlayerListener</H3>
+<PRE>
+public abstract void <B>removeMediaPlayerListener</B>(<A HREF="../../../com/jblend/media/MediaPlayerListener.html">MediaPlayerListener</A>&nbsp;l)</PRE>
+<DL>
+<DD>MediaPlayerListenerの登録を解除します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>l</CODE> - MediaPlayerListener</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="addNativeMediaEventDispatcher(com.jblend.io.j2me.events.NativeMediaEventDispatcher)"><!-- --></A><H3>
+addNativeMediaEventDispatcher</H3>
+<PRE>
+protected static void <B>addNativeMediaEventDispatcher</B>(com.jblend.io.j2me.events.NativeMediaEventDispatcher&nbsp;dispatcher)</PRE>
+<DL>
+<DD>NativeMediaEventDispatcherを登録します。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>dispatcher</CODE> - NativeEventDispatcher</DL>
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+<!-- ========== START OF NAVBAR ========== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>概要</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>パッケージ</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>クラス</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/MediaPlayer.html"><FONT CLASS="NavBarFont1"><B>使用</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>非推奨 API</B></FONT></A>&nbsp;</TD> 
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html" TARGET="_top"><B>フレームあり</B></A>  &nbsp;  
+&nbsp;<A HREF="MediaPlayer.html" TARGET="_top"><B>フレームなし</B></A></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  概要: &nbsp;内部クラス&nbsp;|&nbsp;<A HREF="#field_summary">フィールド</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">コンストラクタ</A>&nbsp;|&nbsp;<A HREF="#method_summary">メソッド</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+詳細: &nbsp;<A HREF="#field_detail">フィールド</A>&nbsp;|&nbsp;<A HREF="#constructor_detail">コンストラクタ</A>&nbsp;|&nbsp;<A HREF="#method_detail">メソッド</A></FONT></TD>
+</TR>
+</TABLE>
+<!-- =========== END OF NAVBAR =========== -->
+
+<HR>
+Copyright 2003 Aplix Corporation. All rights reserved.  Aplix Confidential and Restricted.  
+</BODY>
+</HTML>

@@ -643,11 +643,761 @@ javax.microedition.lcdui.Graphics クラスや
 </TR>
 </TABLE>
 &nbsp;   
-<!-- 
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+<A NAME="constructor_summary"><!-- --></A>   
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TD COLSPAN=2><FONT SIZE="+2">
+<B>コンストラクタの概要</B></FONT></TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#PhoneSystem()">PhoneSystem</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;   
+<!-- ========== METHOD SUMMARY =========== -->
+
+<A NAME="method_summary"><!-- --></A>   
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TD COLSPAN=2><FONT SIZE="+2">
+<B>メソッドの概要</B></FONT></TD>
+</TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>static&nbsp;int</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#PATTERN1">PATTERN1</A></B></CODE>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#getColorDepth(int)">getColorDepth</A></B>(int&nbsp;color)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;逹
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機の色深度を返します。
+ 
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#getDisplayBacklightStatus()">getDisplayBacklightStatus</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機のディスプレイバックライトの現在の状態を返します。
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#getID()">getID</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機の型番を返します。</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#getIncallLedStatus(int)">getIncallLedStatus</A></B>(int&nbsp;attr)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機の着信 LED デバイスの現在の状態を返します。   
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#getIntensity()">getIntensity</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機の電界強度を返します。
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#getKeyState(boolean)">getKeyState</A></B>(boolean&nbsp;eightDirections)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;キーの状態を返します。
+
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#getPowerSupply()">getPowerSupply</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機の電池残量を返します。
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#getVibrationStatus(int)">getVibrationStatus</A></B>(int&nbsp;attr)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機のバイブレータデバイスの現在の状態を返します。
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#isSupportedEightDirections()">isSupportedEightDirections</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;８方向キーをサポートするか返します。
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#offDisplayBacklight()">offDisplayBacklight</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機のディスプレイバックライトを消灯します。
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#offIncallLed()">offIncallLed</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機の着信 LED デバイスを、OFF にします。   
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#offVibration()">offVibration</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機のバイブレータデバイスを OFF にします。   
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#onDisplayBacklight()">onDisplayBacklight</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機のディスプレイバックライトを点灯します。
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#onIncallLed(int, int)">onIncallLed</A></B>(int&nbsp;color, 
+            int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機の着信 LED デバイスを、ON にします。   
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#onIncallLed(int, int, int)">onIncallLed</A></B>(int&nbsp;color,
+            int&nbsp;pattern,
+            int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機の着信LEDデバイスを、明滅パターン指定付きで ON にします。   
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#onVibration(int)">onVibration</A></B>(int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機のバイブレータデバイスを ON にします。   
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/kddi/system/PhoneSystem.html#onVibration(int, int)">onVibration</A></B>(int&nbsp;pattern,
+            int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;移動機のバイブレータデバイスを、振動パターン指定付きで ON にします。   
+ </TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_java.lang.Object"><!-- --></A>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TD><B>クラス java.lang.Object から継承したメソッド</B></TD>   
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE>equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</CODE></TD>   
+</TR>
+</TABLE>
+&nbsp;
+<P>
+
+<!-- ============ FIELD DETAIL =========== -->
+
+<A NAME="field_detail"><!-- --></A>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TD COLSPAN=1><FONT SIZE="+2">
+<B>フィールドの詳細</B></FONT></TD>
+</TR>
+</TABLE>
+
+<A NAME="NO_SUPPORT"><!-- --></A><H3>
+NO_SUPPORT</H3>
+<PRE>
+public static final int <B>NO_SUPPORT</B></PRE>
+<DL>
+<DD>移動機システムに設定されていない、またはサポートされていないことを表します。</DL>
+<HR>
+
+<A NAME="ATTR_ONOFF"><!-- --></A><H3>
+ATTR_ONOFF</H3>
+<PRE>
+public static final int <B>ATTR_ONOFF</B></PRE>
+<DL>
+<DD>ON・OFF属性を表します。</DL>
+<HR>
+
+<A NAME="ATTR_PATTERN"><!-- --></A><H3>
+ATTR_PATTERN</H3>
+<PRE>
+public static final int <B>ATTR_PATTERN</B></PRE>
+<DL>
+<DD>パターン属性を表します。</DL>
+<HR>
+
+<A NAME="ATTR_COLOR"><!-- --></A><H3>
+ATTR_COLOR</H3>
+<PRE>
+public static final int <B>ATTR_COLOR</B></PRE>
+<DL>
+<DD>カラー属性を表します。</DL>
+<HR>
+
+<A NAME="DEVICE_OFF"><!-- --></A><H3>
+DEVICE_OFF</H3>
+<PRE>
+public static final int <B>DEVICE_OFF</B></PRE>
+<DL>
+<DD>デバイスの状態が OFF であることを表します。</DL>   
+<HR>
+
+<A NAME="DEVICE_ON"><!-- --></A><H3>
+DEVICE_ON</H3>
+<PRE>
+public static final int <B>DEVICE_ON</B></PRE>
+<DL>
+<DD>デバイスの状態が ON であることを表します。</DL>   
+<HR>
+
+<A NAME="PATTERN1"><!-- --></A><H3>
+PATTERN1</H3>
+<PRE>
+public static final int <B>PATTERN1</B></PRE>
+<DL>
+<DD>着信LED・バイブレータの明滅パターン 1 を表します。</DL>   
+<HR>
+
+<A NAME="PATTERN2"><!-- --></A><H3>
+PATTERN2</H3>
+<PRE>
+public static final int <B>PATTERN2</B></PRE>
+<DL>
+<DD>着信LED・バイブレータの明滅パターン 2 を表します。</DL>   
+<HR>
+
+<A NAME="PATTERN3"><!-- --></A><H3>
+PATTERN3</H3>
+<PRE>
+public static final int <B>PATTERN3</B></PRE>
+<DL>
+<DD>着信LED・バイブレータの明滅パターン 3 を表します。</DL>   
+<HR>
+
+<A NAME="PATTERN4"><!-- --></A><H3>
+PATTERN4</H3>
+<PRE>
+public static final int <B>PATTERN4</B></PRE>
+<DL>
+<DD>着信LED・バイブレータの明滅パターン 4 を表します。</DL>   
+<HR>
+
+<A NAME="PATTERN5"><!-- --></A><H3>
+PATTERN5</H3>
+<PRE>
+public static final int <B>PATTERN5</B></PRE>
+<DL>
+<DD>着信LED・バイブレータの明滅パターン 5 を表します。</DL>   
+<HR>
+
+<A NAME="PATTERN6"><!-- --></A><H3>
+PATTERN6</H3>
+<PRE>
+public static final int <B>PATTERN6</B></PRE>
+<DL>
+<DD>着信LED・バイブレータの明滅パターン 6 を表します。</DL>   
+<HR>
+
+<A NAME="PATTERN7"><!-- --></A><H3>
+PATTERN7</H3>
+<PRE>
+public static final int <B>PATTERN7</B></PRE>
+<DL>
+<DD>着信LED・バイブレータの明滅パターン 7 を表します。</DL>   
+<HR>
+
+<A NAME="PATTERN8"><!-- --></A><H3>
+PATTERN8</H3>
+<PRE>
+public static final int <B>PATTERN8</B></PRE>
+<DL>
+<DD>着信LED・バイブレータの明滅パターン 8 を表します。</DL>   
+<HR>
+
+<A NAME="COLOR_DEFAULT"><!-- --></A><H3>
+COLOR_DEFAULT</H3>
+<PRE>
+public static final int <B>COLOR_DEFAULT</B></PRE>
+<DL>
+<DD>デフォルトの色を表します。</DL>
+<HR>
+
+<A NAME="COLOR_GREEN"><!-- --></A><H3>
+COLOR_GREEN</H3>
+<PRE>
+public static final int <B>COLOR_GREEN</B></PRE>
+<DL>
+<DD>緑色を表します。</DL>
+<HR>
+
+<A NAME="COLOR_RED"><!-- --></A><H3>
+COLOR_RED</H3>
+<PRE>
+public static final int <B>COLOR_RED</B></PRE>
+<DL>
+<DD>赤色を表します。</DL>
+<HR>
+
+<A NAME="COLOR_BLUE"><!-- --></A><H3>
+COLOR_BLUE</H3>
+<PRE>
+public static final int <B>COLOR_BLUE</B></PRE>
+<DL>
+<DD>青色を表します。</DL>
+<HR>
+
+<A NAME="MAX_TIMEOUT"><!-- --></A><H3>
+MAX_TIMEOUT</H3>
+<PRE>
+public static final int <B>MAX_TIMEOUT</B></PRE>
+<DL>
+<DD>バイブレーション、LEDの動作時間の最大値を表します。   
+ 60000（単位はミリ秒）が定義されています。</DL>
+<HR>
+
+<A NAME="NONE"><!-- --></A><H3>
+NONE</H3>
+<PRE>
+public static final int <B>NONE</B></PRE>
+<DL>
+<DD>電界強度が「圏外」であることを表します。</DL>
+<HR>
+
+<A NAME="LOW"><!-- --></A><H3>
+LOW</H3>
+<PRE>
+public static final int <B>LOW</B></PRE>
+<DL>
+<DD>電界強度が「弱」であることを表します。</DL>
+<HR>
+
+<A NAME="MIDDLE"><!-- --></A><H3>
+MIDDLE</H3>
+<PRE>
+public static final int <B>MIDDLE</B></PRE>
+<DL>
+<DD>電界強度が「中」であることを表します。</DL>
+<HR>
+
+<A NAME="HIGH"><!-- --></A><H3>
+HIGH</H3>
+<PRE>
+public static final int <B>HIGH</B></PRE>
+<DL>
+<DD>電界強度が「強」であることを表します。</DL>
+<HR>
+
+<A NAME="MAX"><!-- --></A><H3>
+MAX</H3>
+<PRE>
+public static final int <B>MAX</B></PRE>
+<DL>
+<DD>電界強度が「最大」であることを表します。</DL>
+<HR>
+
+<A NAME="CHARGING"><!-- --></A><H3>
+CHARGING</H3>
+<PRE>
+public static final int <B>CHARGING</B></PRE>
+<DL>
+<DD>電池残量が「充電中」であることを表します。</DL>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+<A NAME="constructor_detail"><!-- --></A>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TD COLSPAN=1><FONT SIZE="+2">
+<B>コンストラクタの詳細</B></FONT></TD>
+</TR>
+</TABLE>
+
+<A NAME="PhoneSystem()"><!-- --></A><H3>
+PhoneSystem</H3>
+<PRE>
+public <B>PhoneSystem</B>()</PRE>
+<DL>
+</DL>
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME="method_detail"><!-- --></A>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TD COLSPAN=1><FONT SIZE="+2">
+<B>メソッドの詳細</B></FONT></TD>
+</TR>
+</TABLE>
+
+<A NAME="onVibration(int, int)"><!-- --></A><H3>
+onVibration</H3>
+<PRE>
+public static void <B>onVibration</B>(int&nbsp;pattern,
+                               int&nbsp;timeout)</PRE>
+<DL>
+<DD>移動機のバイブレータデバイスを、振動パターン指定付きで ON にします。   
+ バイブレータの設定をサポートしない場合には、無視されます。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>pattern</CODE> - 振動パターン（PATTERNn）。無効な値を指定すると何もしません。<DD><CODE>timeout</CODE> - 振動時間（ミリ秒）。0 以下の場合は <A HREF="../../../com/kddi/system/PhoneSystem.html#offVibration()"><CODE>offVibration()</CODE></A> と等価、<A HREF="../../../com/kddi/system/PhoneSystem.html#MAX_TIMEOUT"><CODE>MAX_TIMEOUT</CODE></A> を越える場合は <A HREF="../../../com/kddi/system/PhoneSystem.html#MAX_TIMEOUT"><CODE>MAX_TIMEOUT</CODE></A> を指定したのと同じになります。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="onVibration(int)"><!-- --></A><H3>
+onVibration</H3>
+<PRE>
+public static void <B>onVibration</B>(int&nbsp;timeout)</PRE>
+<DL>
+<DD>移動機のバイブレータデバイスを ON にします。   
+ バイブレータの設定をサポートしない場合には、無視されます。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>timeout</CODE> - 振動時間（ミリ秒）。0 以下の場合は <A HREF="../../../com/kddi/system/PhoneSystem.html#offVibration()"><CODE>offVibration()</CODE></A> と等価、<A HREF="../../../com/kddi/system/PhoneSystem.html#MAX_TIMEOUT"><CODE>MAX_TIMEOUT</CODE></A> を越える場合は <A HREF="../../../com/kddi/system/PhoneSystem.html#MAX_TIMEOUT"><CODE>MAX_TIMEOUT</CODE></A> を指定したのと同じになります。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="offVibration()"><!-- --></A><H3>
+offVibration</H3>
+<PRE>
+public static void <B>offVibration</B>()</PRE>
+<DL>
+<DD>移動機のバイブレータデバイスを OFF にします。   
+ バイブレータの設定をサポートしない場合には、無視されます。</DL>
+<HR>
+
+<A NAME="getVibrationStatus(int)"><!-- --></A><H3>
+getVibrationStatus</H3>
+<PRE>
+public static int <B>getVibrationStatus</B>(int&nbsp;attr)</PRE>
+<DL>
+<DD>移動機のバイブレータデバイスの現在の状態を返します。   
+ 移動機のサポートの有無は、ATTR_ONOFF を指定して、NO_SUPPORT が返るかどうかで判別できます。<DD><DL>   
+<DT><B>パラメータ: </B><DD><CODE>attr</CODE> - 取得する属性の指定。ATTR_ONOFF または ATTR_PATTERN。<DT><B>戻り値: </B><DD>デバイスの状態。指定された属性が未サポートの場合には、NO_SUPPORT を返す。サポートしている場合、状態未設定で ATTR_PATTERN を指定すると、DEVICE_OFF を返す。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="onIncallLed(int, int, int)"><!-- --></A><H3>
+onIncallLed</H3>
+<PRE>
+public static void <B>onIncallLed</B>(int&nbsp;color,
+                               int&nbsp;pattern,
+                               int&nbsp;timeout)</PRE>
+<DL>
+<DD>移動機の着信LEDデバイスを、明滅パターン指定付きで ON にします。   
+ 着信LEDの設定をサポートしない場合には、無視されます。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>color</CODE> - 点灯LEDカラー指定。（COLOR_XXXX）。無効な値を指定すると何もしない。<DD><CODE>pattern</CODE> - 明滅パターン（PATTERNn）。無効な値を指定すると何もしない。<DD><CODE>timeout</CODE> - 動作時間（ミリ秒）。0 以下の場合は <A HREF="../../../com/kddi/system/PhoneSystem.html#offIncallLed()"><CODE>offIncallLed()</CODE></A> と等価、<A HREF="../../../com/kddi/system/PhoneSystem.html#MAX_TIMEOUT"><CODE>MAX_TIMEOUT</CODE></A> を越える場合には <A HREF="../../../com/kddi/system/PhoneSystem.html#MAX_TIMEOUT"><CODE>MAX_TIMEOUT</CODE></A> を指定したのと同じになります。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="onIncallLed(int, int)"><!-- --></A><H3>
+onIncallLed</H3>
+<PRE>
+public static void <B>onIncallLed</B>(int&nbsp;color,
+                               int&nbsp;timeout)</PRE>
+<DL>
+<DD>移動機の着信 LED デバイスを、ON にします。   
+ 着信 LED の設定をサポートしない場合には、無視されます。<DD><DL>   
+<DT><B>パラメータ: </B><DD><CODE>color</CODE> - 点灯 LED カラー指定（COLOR_XXXX）。無効な値を指定すると何もしない。<DD><CODE>timeout</CODE> - 点灯時間（ミリ秒）。0 以下の場合は <A HREF="../../../com/kddi/system/PhoneSystem.html#offIncallLed()"><CODE>offIncallLed()</CODE></A> と等価、<A HREF="../../../com/kddi/system/PhoneSystem.html#MAX_TIMEOUT"><CODE>MAX_TIMEOUT</CODE></A> を越える場合には <A HREF="../../../com/kddi/system/PhoneSystem.html#MAX_TIMEOUT"><CODE>MAX_TIMEOUT</CODE></A> を指定したのと同じになります。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="offIncallLed()"><!-- --></A><H3>
+offIncallLed</H3>
+<PRE>
+public static void <B>offIncallLed</B>()</PRE>
+<DL>
+<DD>移動機の着信 LED デバイスを、OFF にします。   
+ 着信 LED の設定をサポートしない場合には、無視されます。</DL>   
+<HR>
+
+<A NAME="getIncallLedStatus(int)"><!-- --></A><H3>
+getIncallLedStatus</H3>
+<PRE>
+public static int <B>getIncallLedStatus</B>(int&nbsp;attr)</PRE>
+<DL>
+<DD>移動機の着信 LED デバイスの現在の状態を返します。   
+ 移動機のサポートの有無は、ATTR_ONOFF を指定して、NO_SUPPORT が返るかどうかで判別できます。<DD><DL>   
+<DT><B>パラメータ: </B><DD><CODE>attr</CODE> - 取得する属性。ATTR_ONOFF、ATTR_PATTERN、ATTR_COLOR のいずれか。<DT><B>戻り値: </B><DD>デバイスの状態。指定された属性が未サポートの場合には、NO_SUPPORT が返る。サポートしている場合、状態未設定で ATTR_PATTERN を指定すると、DEVICE_OFF が返る。</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="onDisplayBacklight()"><!-- --></A><H3>
+onDisplayBacklight　＜Phase2＞</H3>
+<PRE>
+public static void <B>onDisplayBacklight</B>()</PRE>
+<DL>
+<DD>移動機のディスプレイバックライトを点灯します。   
+ ディスプレイバックライトの制御をサポートしない場合には、無視されます。
+</DL>
+<HR>
+
+<A NAME="offDisplayBacklight()"><!-- --></A><H3>
+offDisplayBacklight　＜Phase2＞</H3>
+<PRE>
+public static void <B>offDisplayBacklight</B>()</PRE>
+<DL>
+<DD>移動機のディスプレイバックライトを消灯します。   
+ ディスプレイバックライトの制御をサポートしない場合には、無視されます。
+</DL>
+<HR>
+
+<A NAME="getDisplayBacklightStatus()"><!-- --></A><H3>
+getDisplayBacklightStatus　＜Phase2＞</H3>
+<PRE>
+public static int <B>getDisplayBacklightStatus</B>()</PRE>
+<DL>
+<DD>移動機のディスプレイバックライトの現在の状態を返します。   
+ サポートしない場合には、NO_SUPPORT を返します。<DD><DL>   
+<DT><B>戻り値: </B><DD>点灯中の場合 DEVICE_ON、消灯中の場合 DEVICE_OFF。   
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getIntensity()"><!-- --></A><H3>
+getIntensity</H3>
+<PRE>
+public static int <B>getIntensity</B>()</PRE>
+<DL>
+<DD>移動機の電界強度を返します。   
+ サポートしない場合には、NO_SUPPORT を返します。<DD><DL>   
+<DT><B>戻り値: </B><DD>デバイスの値。(NONE=圏外, LOW=電界弱, MIDDLE=電界中, HIGH=電界強, MAX=電界最強)</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPowerSupply()"><!-- --></A><H3>
+getPowerSupply</H3>
+<PRE>
+public static int <B>getPowerSupply</B>()</PRE>
+<DL>
+<DD>移動機の電池残量を返します。   
+ サポートしない場合には、NO_SUPPORTを返します。<DD><DL>
+<DT><B>戻り値: </B><DD>デバイスの値。(NONE=なし(00-10), LOW=小(10-40), MIDDLE=中(40-70), HIGH=大(70-100), CHARGING=充電中)</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="getID()"><!-- --></A><H3>
+getID</H3>
+<PRE>
+public static java.lang.String <B>getID</B>()</PRE>
+<DL>
+<DD>移動機の型番を返します。<DD><DL>
+<DT><B>戻り値: </B><DD>端末の型番。（メーカーコード２ケタ + 機種コード２ケタ）</DL>   
+</DD>
+</DL>
+<HR>
+
+<A NAME="isSecretMode()"><!-- --></A>
+
+<A NAME="setSecretMode(boolean)"><!-- --></A>
+
+<A NAME="isSupportedEightDirections()"><!-- --></A><H3>
+isSupportedEightDirections　＜Phase3＞</H3>
+<PRE>
+public static boolean <B>isSupportedEightDirections</B>()</PRE>
+<DL>
+<DD>８方向キーをサポートするか返します。
+ <p>
+ このメソッドが true を返すと、斜め方向のキーの取得が可能であることを示します。   
+ <A HREF="../../../com/kddi/system/PhoneSystem.html#getKeyState(boolean)"><CODE>getKeyState()</CODE></A> の引数に true を渡すことで   
+ <A HREF="../../../com/kddi/system/PhoneSystem.html#getKeyState(boolean)"><CODE>getKeyState()</CODE></A> は斜め方向のキーの取得が可能になります。   
+ </p>
+ <p>
+ このメソッドが false を返すと斜め方向は認識できません。   
+ <A HREF="../../../com/kddi/system/PhoneSystem.html#getKeyState(boolean)"><CODE>getKeyState()</CODE></A> の引数に true を渡しても、斜め方向のビットが   
+ 1 になることはありません。また、複数のビットが 1 になることもありません。   
+ </p><DD><DL>
+<DT><B>戻り値: </B><DD>８方向キーをサポートする場合は true、そうでない場合は false   
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getKeyState(boolean)"><!-- --></A><H3>
+getKeyState　＜Phase3＞</H3>
+<PRE>
+public static int <B>getKeyState</B>(boolean&nbsp;eightDirections)</PRE>
+<DL>
+<DD>キーの状態を返します。   
+
+ 取得できる全てのキーの状態をビットマップで表し、   
+ 各キーに相当するビットを、キーが押されている場合は 1、   
+ 押されていない場合は 0 に設定します。   
+ <p>
+ 引数 eightDirections に true が指定されると、   
+ 方向キーの斜め方向のキー状態が有効になります。   
+ false が指定された場合は、斜め方向のキーに対応するビットを常に 0 に設定します。   
+ たとえば方向キーの右上が押されている状態では、   
+ eightDirections に true が指定された場合は、   
+ 右上に相当するビットを 1 に、   
+ 右と上に相当するビットをそれぞれ 0 に設定します。   
+ 一方、eightDirections に false が指定された場合は、   
+ 右上に相当するビットを 0 に、   
+ 右と上に相当するビットをそれぞれ 1 に設定します。   
+ ただし、実際に斜め方向のキーが取得できるかどうかは   
+ <A HREF="../../../com/kddi/system/PhoneSystem.html#isSupportedEightDirections()"><CODE>isSupportedEightDirections()</CODE></A> で調べてください。   
+ </p>
+ <p>
+ EZアプリコントローラを使用の場合は、移動機の状態とEZアプリコントローラの状態の論理和となります。   
+ キー押下状態が同時にいくつまで取得できるかは機種依存です。
+ </p>
+ <p>
+ このメソッドの呼び出し間隔は 100ms 程度以上にしてください。   
+ 呼び出し間隔が短すぎるときの動作は機種依存です。（実際のキーの状態ではなく、前回の状態がそのまま返ったりします）
+ </p><DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>eightDirections</CODE> - 斜め方向キーの状態の取得の有無<DT><B>戻り値: </B><DD>キーの押下状態を示すビットマップ。   
+ 各キーとビットの対応は以下のとおり。
+ <table border width="60%">
+  <tr>
+      <th align="left" colspan="8">31</th><th align="right" colspan="8">16</th>
+      <th align="left" colspan="8">15</th><th align="right" colspan="8">0</th>
+  </tr>
+  <tr>
+      <td align=center>予約</td>
+      <td align=center>予約</td>
+      <td align=center>予約</td>
+      <td align=center>予約</td>
+      <td align=center>予約</td>
+      <td align=center>予約</td>
+      <td align=center>予約</td>
+      <td align=center>クリアキー</td>
+      <td align=center>左下</td>
+      <td align=center>右下</td>
+      <td align=center>左上</td>
+      <td align=center>右上</td>
+      <td align=center>ソフトキー3</td>
+      <td align=center>ソフトキー2</td>
+      <td align=center>ソフトキー1</td>
+      <td align=center>選択キー</td>
+      <td align=center>下キー</td>
+      <td align=center>右キー</td>
+      <td align=center>左キー</td>
+      <td align=center>上キー</td>
+      <td align=center>＃キー</td>
+      <td align=center>＊キー</td>
+      <td align=center>9キー</td>
+      <td align=center>8キー</td>
+      <td align=center>7キー</td>
+      <td align=center>6キー</td>
+      <td align=center>5キー</td>
+      <td align=center>4キー</td>
+      <td align=center>3キー</td>
+      <td align=center>2キー</td>
+      <td align=center>1キー</td>
+      <td align=center>0キー</td>
+  </tr>
+ </table>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getColorDepth(int)"><!-- --></A><H3>
+getColorDepth　＜Phase3＞</H3>
+<PRE>
+public static int <B>getColorDepth</B>(int&nbsp;color)</PRE>
+<DL>
+<DD>移動機の色深度を返します。   
+ 
+ 引数 color に指定された色についての色深度を返します。   
+ LCDの色深度ではなく、内部的な画面バッファの色深度です。   
+ 必ずしもLCDの色深度と一致するとは限りません。<DD><DL>
+<DT><B>パラメータ: </B><DD><CODE>color</CODE> - 色。   
+        <A HREF="../../../com/kddi/system/PhoneSystem.html#COLOR_RED"><CODE>COLOR_RED</CODE></A>、 <A HREF="../../../com/kddi/system/PhoneSystem.html#COLOR_GREEN"><CODE>COLOR_GREEN</CODE></A>、 <A HREF="../../../com/kddi/system/PhoneSystem.html#COLOR_BLUE"><CODE>COLOR_BLUE</CODE></A> のいずれか。<DT><B>戻り値: </B><DD>色深度。単位はビット。   
+</DL>
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+<!-- ========== START OF NAVBAR ========== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>概要</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>パッケージ</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>クラス</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/PhoneSystem.html"><FONT CLASS="NavBarFont1"><B>使用</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    &nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>非推奨 API</B></FONT></A>&nbsp;</TD> 
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html" TARGET="_top"><B>フレームあり</B></A>  &nbsp;  
+&nbsp;<A HREF="PhoneSystem.html" TARGET="_top"><B>フレームなし</B></A></FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  概要: &nbsp;内部クラス&nbsp;|&nbsp;<A HREF="#field_summary">フィールド</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">コンストラクタ</A>&nbsp;|&nbsp;<A HREF="#method_summary">メソッド</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+詳細: &nbsp;<A HREF="#field_detail">フィールド</A>&nbsp;|&nbsp;<A HREF="#constructor_detail">コンストラクタ</A>&nbsp;|&nbsp;<A HREF="#method_detail">メソッド</A></FONT></TD>
+</TR>
+</TABLE>
+<!-- =========== END OF NAVBAR =========== -->
+
+<HR>
+Copyright 2003 Aplix Corporation. All rights reserved.  Aplix Confidential and Restricted.   
+</BODY>
+</HTML>
