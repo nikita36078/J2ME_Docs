@@ -1,0 +1,69 @@
+/* javadoc スタイルシート */
+
+/* 色やフォントなどのスタイル属性のデフォルト値を上書きするには、ここで定義します。 */
+
+/* ページのバックグラウンドの色 */
+body { background-color: #FFFFFF }
+
+/* 見出し */
+h1 { font-size: 145% }
+
+/* テーブルの色 */
+.TableHeadingColor     { background: #CCCCFF } /* 濃い藤色 */
+.TableSubHeadingColor  { background: #EEEEFF } /* 薄い藤色 */
+.TableRowColor         { background: #FFFFFF } /* 白 */
+
+/* 左側のフレームのリストに使用するフォント */
+.FrameTitleFont   { font-size: 100%; font-family: Helvetica, Arial, sans-serif }
+.FrameHeadingFont { font-size:  90%; font-family: Helvetica, Arial, sans-serif }
+.FrameItemFont    { font-size:  90%; font-family: Helvetica, Arial, sans-serif }
+
+/* ナビゲーションバーのフォントと色 */
+.NavBarCell1    { background-color:#EEEEFF;} /* 薄い藤色 */
+.NavBarCell1Rev { background-color:#00008B;} /* 濃い青 */
+.NavBarFont1    { font-family: Arial, Helvetica, sans-serif; color:#000000;}
+.NavBarFont1Rev { font-family: Arial, Helvetica, sans-serif; color:#FFFFFF;}
+
+.NavBarCell2    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF;}
+.NavBarCell3    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF;}
+
+.doja801 { color: black; }
+.reserved { color: gray; }
+.reserved * { color: gray; }
+.informative { color: olivedrab; }
+SPAN.category { font-weight: bold; }
+
+INS {
+  color: black !important;
+  text-decoration: none;
+}
+
+DEL {
+  color: black !important;
+  text-decoration: line-through;
+}
+
+INS * {
+  color: black; 
+  text-decoration: none;
+}
+
+DEL * {
+  color: black;
+  text-decoration: line-through;
+}
+
+DFN { 
+  font-weight: bold;
+  font-style: normal;
+}
+
+DL.desc DT {
+  font-weight: bold;
+  font-style: normal;
+}
+
+DL.desc DD > UL, DL.desc DD > OL {
+  margin-left: 0;
+  padding-left: 0;
+}
